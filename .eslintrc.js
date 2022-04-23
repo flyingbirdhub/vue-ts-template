@@ -3,6 +3,7 @@ module.exports = {
     node: true,
     es6: true,
     jest: true,
+    browser: true,
   },
   extends: ['eslint:recommended', 'prettier'],
   globals: {
@@ -17,5 +18,6 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    'no-undef': 'off',
   },
 };

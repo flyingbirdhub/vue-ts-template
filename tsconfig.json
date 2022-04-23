@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
     "module": "esnext",
     "target": "es5",
     "allowJs": true,
