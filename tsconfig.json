@@ -12,6 +12,7 @@
     "declaration": true,
     "strict": true,
     "baseUrl": "./",
+    "jsx": "preserve",
     "paths": {
       "@/*": [
         "src/*"
